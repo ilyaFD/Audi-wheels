@@ -1,0 +1,712 @@
+/***************
+* audi-wheels *
+***************/
+/*Global start*/
+.wheels-strong {
+  font-weight: 700; }
+
+.wheels-block {
+  display: block; }
+
+.audi-wheels {
+  /*Global end*/
+  /* Content start */
+  /* hero start */
+  /* hero end */
+  /* first section start */
+  /* first section end */
+  /* second section start */
+  /* second section end */
+  /* title section start */
+  /* title section end */
+  /* tire section start */
+  /* tire section end */
+  /* two column section start */
+  /* two column section end */
+  /* table section start */
+  /* table section end */
+  /* botiom section start */
+  /* botiom section end */
+  /*Content end*/ }
+  .audi-wheels h3 {
+    font-size: 22px; }
+    @media (min-width: 769px) {
+      .audi-wheels h3 {
+        font-size: 31px; } }
+    @media (min-width: 1221px) {
+      .audi-wheels h3 {
+        font-size: 35px; } }
+    @media (min-width: 1441px) {
+      .audi-wheels h3 {
+        font-size: 41px; } }
+  .audi-wheels p {
+    font-size: 16px;
+    color: #0b3342; }
+    @media (min-width: 769px) {
+      .audi-wheels p {
+        font-size: 18px; } }
+    @media (min-width: 1221px) {
+      .audi-wheels p {
+        font-size: 24px; } }
+    @media (min-width: 1441px) {
+      .audi-wheels p {
+        font-size: 29px; } }
+  .audi-wheels a {
+    color: #f4d501; }
+    .audi-wheels a:hover {
+      color: #faea6f; }
+  .audi-wheels .wheels-hero {
+    position: relative;
+    background: #f4d501;
+    padding: 60px 30px 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 75px; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-hero {
+        padding: 150px 30px 0 30px; } }
+    @media (min-width: 1221px) {
+      .audi-wheels .wheels-hero {
+        margin-bottom: 85px;
+        padding: 180px 30px 0 30px; } }
+    @media (min-width: 1441px) {
+      .audi-wheels .wheels-hero {
+        padding: 210px 30px 0 30px;
+        margin-bottom: 100px; } }
+    .audi-wheels .wheels-hero h1 {
+      font-size: 26px;
+      border-left: 20px solid #fff;
+      padding-left: 20px;
+      line-height: 1.1;
+      z-index: 2; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-hero h1 {
+          font-size: 51px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-hero h1 {
+          border-left: 30px solid #fff;
+          font-size: 58px;
+          padding-left: 30px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .wheels-hero h1 {
+          font-size: 69px; } }
+    .audi-wheels .wheels-hero span {
+      display: block;
+      line-height: 1.3; }
+      .audi-wheels .wheels-hero span:first-child {
+        margin-top: -5px; }
+        @media (min-width: 1221px) {
+          .audi-wheels .wheels-hero span:first-child {
+            margin-top: -13px; } }
+    .audi-wheels .wheels-hero span:last-child {
+      margin-bottom: -5px; }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-hero span:last-child {
+          margin-top: -13px; } }
+    .audi-wheels .wheels-hero .italic {
+      display: inline; }
+    .audi-wheels .wheels-hero .dark-head {
+      color: #0b3342;
+      font-weight: 700; }
+    .audi-wheels .wheels-hero .light-head {
+      color: #fff;
+      font-weight: 800; }
+  .audi-wheels .hero-auto {
+    z-index: 1;
+    margin: 70px auto 60px auto;
+    width: 100%;
+    max-width: 500px; }
+    @media (min-width: 769px) {
+      .audi-wheels .hero-auto {
+        margin: 20px 15% 100px 0;
+        width: 85%;
+        max-width: 85%; } }
+    @media (min-width: 1221px) {
+      .audi-wheels .hero-auto {
+        max-width: 72%;
+        max-width: 72%;
+        margin-left: 28%;
+        margin-top: -210px; } }
+    @media (min-width: 1441px) {
+      .audi-wheels .hero-auto {
+        max-width: 85%;
+        margin-left: 15%;
+        margin-bottom: 200px;
+        margin-top: -200px; } }
+  .audi-wheels .hero-bg {
+    display: none; }
+    @media (min-width: 769px) {
+      .audi-wheels .hero-bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: calc(100% + 85px);
+        -o-object-fit: cover;
+           object-fit: cover;
+        width: 25%;
+        display: inline-block; } }
+    @media (min-width: 1221px) {
+      .audi-wheels .hero-bg {
+        height: calc(100% + 85px);
+        -o-object-fit: none;
+           object-fit: none;
+        width: auto; } }
+    @media (min-width: 1441px) {
+      .audi-wheels .hero-bg {
+        height: calc(100% + 100px); } }
+  .audi-wheels .wheels-first {
+    padding: 0 30px 60px 30px; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-first {
+        padding: 75px 60px 100px 60px; } }
+    .audi-wheels .wheels-first .top {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 40px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-first .top {
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+          -webkit-box-pack: start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start; } }
+    .audi-wheels .wheels-first img {
+      width: 100%;
+      margin-left: 0;
+      z-index: 2;
+      max-width: 420px;
+      margin-top: 55px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-first img {
+          margin-top: 0;
+          width: 60%;
+          margin-left: -10%;
+          max-width: 60%; } }
+    .audi-wheels .wheels-first .head {
+      width: 100%;
+      max-width: 400px;
+      background: url(../img/head-background.jpg) repeat-y 0 0;
+      background-size: 150%;
+      text-align: center;
+      padding: 15px;
+      margin-left: 20px;
+      margin-top: 20px;
+      z-index: 0;
+      position: relative; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-first .head {
+          width: 50%;
+          max-width: 50%;
+          padding: 15px 45px 15px 15px;
+          background-size: 100%; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-first .head {
+          margin-left: 40px;
+          margin-top: 40px;
+          padding: 30px 90px 30px 0; } }
+      .audi-wheels .wheels-first .head:before {
+        content: "";
+        width: 40px;
+        height: 40px;
+        background: #0b3342;
+        position: absolute;
+        top: -20px;
+        left: -20px; }
+        @media (min-width: 1221px) {
+          .audi-wheels .wheels-first .head:before {
+            width: 80px;
+            height: 80px;
+            top: -40px;
+            left: -40px; } }
+      .audi-wheels .wheels-first .head p {
+        font-size: 28px;
+        color: #0b3342;
+        font-weight: 800; }
+        @media (min-width: 1221px) {
+          .audi-wheels .wheels-first .head p {
+            font-size: 46px; } }
+        @media (min-width: 1441px) {
+          .audi-wheels .wheels-first .head p {
+            font-size: 55px; } }
+    .audi-wheels .wheels-first h2 {
+      font-size: 26px;
+      color: #fff;
+      line-height: 1;
+      font-weight: 700; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-first h2 {
+          font-size: 41px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-first h2 {
+          font-size: 67px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .wheels-first h2 {
+          font-size: 79px; } }
+    .audi-wheels .wheels-first p {
+      text-align: center; }
+  .audi-wheels .wheels-second {
+    background: url(../img/secrion-3-backdround.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding: 50px 30px;
+    position: relative;
+    margin-bottom: 10px; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-second {
+        padding: 93px 30px;
+        margin-bottom: 15px; } }
+    @media (min-width: 1221px) {
+      .audi-wheels .wheels-second {
+        margin-bottom: 25px; } }
+    @media (min-width: 1441px) {
+      .audi-wheels .wheels-second {
+        margin-bottom: 30px; } }
+    .audi-wheels .wheels-second:after {
+      content: "";
+      background: #f4d501;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      width: 200px;
+      height: 20px;
+      margin-left: -100px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-second:after {
+          left: 30px;
+          bottom: -15px;
+          width: 300px;
+          height: 30px;
+          margin-left: 0; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-second:after {
+          height: 50px;
+          bottom: -25px;
+          width: 364px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .wheels-second:after {
+          bottom: -30px;
+          height: 60px;
+          width: 430px; } }
+    .audi-wheels .wheels-second .description {
+      width: 100%;
+      text-align: center; }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-second .description {
+          width: 50%;
+          text-align: left; } }
+    .audi-wheels .wheels-second p {
+      color: #fff; }
+    .audi-wheels .wheels-second p:first-child {
+      padding-bottom: 30px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-second p:first-child {
+          padding-bottom: 40px; } }
+  .audi-wheels .wheels-title {
+    text-align: center;
+    padding: 60px 30px 80px 30px; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-title {
+        padding: 100px 30px 130px 30px; } }
+    .audi-wheels .wheels-title h3 {
+      margin-bottom: 80px;
+      position: relative; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-title h3 {
+          margin-bottom: 70px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-title h3 {
+          margin-bottom: 120px; } }
+      .audi-wheels .wheels-title h3:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        margin-left: -75px;
+        width: 150px;
+        height: 10px;
+        bottom: -30px;
+        background: #f4d501; }
+        @media (min-width: 1221px) {
+          .audi-wheels .wheels-title h3:after {
+            bottom: -60px;
+            width: 200px;
+            height: 20px;
+            margin-left: -100px; } }
+    .audi-wheels .wheels-title p {
+      padding: 0; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-title p {
+          padding: 0 70px; } }
+    .audi-wheels .wheels-title_gray {
+      background: #efefef; }
+    .audi-wheels .wheels-title_invert-padding {
+      padding-top: 50px;
+      padding-bottom: 30px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-title_invert-padding {
+          padding-top: 130px;
+          padding-bottom: 100px; } }
+  .audi-wheels .tire-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0; }
+    @media (min-width: 769px) {
+      .audi-wheels .tire-section {
+        padding: 0 30px; } }
+    .audi-wheels .tire-section > div {
+      width: 100%; }
+      @media (min-width: 769px) {
+        .audi-wheels .tire-section > div {
+          width: 50%; } }
+  .audi-wheels .wheels-yellow {
+    background: none; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-yellow {
+        background: -webkit-gradient(linear, left top, right top, from(#f4d501), color-stop(50%, #f4d501), color-stop(50%, #fff), to(#fff));
+        background: linear-gradient(to right, #f4d501 0%, #f4d501 50%, #fff 50%, #fff 100%); } }
+    .audi-wheels .wheels-yellow .tire-image-wrap {
+      background: radial-gradient(closest-side, #fbed7e, #f4d501); }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-yellow .tire-image-wrap {
+          padding: 25px 40px 25px 25px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-yellow .tire-image-wrap {
+          padding: 65px 100px 65px 65px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .wheels-yellow .tire-image-wrap {
+          padding: 80px 120px 80px 80px; } }
+    .audi-wheels .wheels-yellow .tire-description {
+      padding-left: 30px;
+      padding-right: 30px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-yellow .tire-description {
+          padding-right: 0; } }
+      .audi-wheels .wheels-yellow .tire-description:before {
+        background: #f4d501; }
+  .audi-wheels .wheels-blue {
+    background: none; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-blue {
+        background: -webkit-gradient(linear, right top, left top, from(#0b3342), color-stop(50%, #0b3342), color-stop(50%, #fff), to(#fff));
+        background: linear-gradient(to left, #0b3342 0%, #0b3342 50%, #fff 50%, #fff 100%); } }
+    .audi-wheels .wheels-blue .tire-image-wrap {
+      background: radial-gradient(closest-side, #1d4a5a, #0b3342); }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-blue .tire-image-wrap {
+          -webkit-box-ordinal-group: 3;
+              -ms-flex-order: 2;
+                  order: 2;
+          padding: 25px 25px 25px 40px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-blue .tire-image-wrap {
+          padding: 65px 65px 65px 100px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .wheels-blue .tire-image-wrap {
+          padding: 80px 80px 80px 120px; } }
+    .audi-wheels .wheels-blue .tire-description {
+      padding-right: 30px;
+      padding-left: 30px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-blue .tire-description {
+          padding-left: 0;
+          padding-left: 30px;
+          -webkit-box-ordinal-group: 2;
+              -ms-flex-order: 1;
+                  order: 1; } }
+      .audi-wheels .wheels-blue .tire-description:before {
+        background: #1b4859; }
+    .audi-wheels .wheels-blue .tire-description-yellow:before {
+      background: #f4d501 !important; }
+  .audi-wheels .tire-image-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px; }
+    @media (min-width: 769px) {
+      .audi-wheels .tire-image-wrap {
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end; } }
+    .audi-wheels .tire-image-wrap img {
+      max-width: 250px; }
+      @media (min-width: 769px) {
+        .audi-wheels .tire-image-wrap img {
+          max-width: 100%; } }
+  .audi-wheels .priece {
+    font-size: 14px;
+    color: #0b3342;
+    background: -webkit-gradient(linear, left top, right top, from(#cbcbcb), color-stop(10%, #cbcbcb), color-stop(50%, #fff));
+    background: linear-gradient(to right, #cbcbcb, #cbcbcb 10%, #fff 50%);
+    text-transform: capitalize;
+    line-height: 1;
+    padding: 5px 10px 5px 100px;
+    margin: 0 -145px -45px 0; }
+    @media (min-width: 769px) {
+      .audi-wheels .priece {
+        margin: 0 -30px -55px 0; } }
+    @media (min-width: 993px) {
+      .audi-wheels .priece {
+        margin: 23px -20px -75px 0;
+        padding: 10px 20px 10px 100px; } }
+    @media (min-width: 1221px) {
+      .audi-wheels .priece {
+        margin: 40px -80px -100px 0;
+        padding: 10px 40px 10px 100px;
+        font-size: 16px; } }
+    @media (min-width: 1441px) {
+      .audi-wheels .priece {
+        font-size: 19px; } }
+    .audi-wheels .priece > span {
+      font-size: 18px; }
+      @media (min-width: 1221px) {
+        .audi-wheels .priece > span {
+          font-size: 24px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .priece > span {
+          font-size: 29px; } }
+  .audi-wheels section .tire-description:before {
+    content: "";
+    width: 180px;
+    height: 15px;
+    background: #000; }
+    @media (min-width: 1441px) {
+      .audi-wheels section .tire-description:before {
+        width: 211px;
+        height: 30px; } }
+    @media (min-width: 1441px) {
+      .audi-wheels section .tire-description:before {
+        width: 250px;
+        height: 35px; } }
+  .audi-wheels .tire-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 40px; }
+    @media (min-width: 1441px) {
+      .audi-wheels .tire-description {
+        padding-top: 51px;
+        padding-bottom: 34px; } }
+    @media (min-width: 769px) {
+      .audi-wheels .tire-description_pad-t-0 {
+        padding-top: 0; } }
+    .audi-wheels .tire-description h3 span {
+      font-size: 22px;
+      line-height: 1; }
+      @media (min-width: 1221px) {
+        .audi-wheels .tire-description h3 span {
+          font-size: 31px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .tire-description h3 span {
+          font-size: 41px; } }
+    .audi-wheels .tire-description span {
+      font-size: 16px;
+      color: #0b3342; }
+      @media (min-width: 769px) {
+        .audi-wheels .tire-description span {
+          font-size: 21px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .tire-description span {
+          font-size: 24px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .tire-description span {
+          font-size: 29px; } }
+    .audi-wheels .tire-description p, .audi-wheels .tire-description h3, .audi-wheels .tire-description .parameters {
+      margin: 20px 0; }
+  .audi-wheels .wheels-two-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 30px 190px;
+    text-align: center; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-two-column {
+        text-align: left;
+        padding: 0 30px 270px; } }
+    @media (min-width: 1221px) {
+      .audi-wheels .wheels-two-column {
+        padding: 0 30px 350px; } }
+    .audi-wheels .wheels-two-column p {
+      font-size: 16px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-two-column p {
+          width: 50%;
+          font-size: 18px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-two-column p {
+          font-size: 24px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .wheels-two-column p {
+          font-size: 29px; } }
+    .audi-wheels .wheels-two-column p:first-child {
+      padding-bottom: 30px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-two-column p:first-child {
+          padding-right: 30px;
+          padding-bottom: 0; } }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-two-column p:last-child {
+        padding-left: 30px; } }
+  .audi-wheels .wheels-two-column_background {
+    background: url(../img/two-column-bg.png) no-repeat 50% 100%, #efefef;
+    background-size: 100%; }
+  .audi-wheels .prompt {
+    text-align: center;
+    padding: 0 0 15px 0; }
+    @media (min-width: 768px) {
+      .audi-wheels .prompt {
+        display: none; } }
+    .audi-wheels .prompt img {
+      max-width: 60px; }
+  .audi-wheels .wheels-table {
+    padding: 60px 15px; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-table {
+        display: block;
+        padding: 80px 30px 100px 30px; } }
+    @media (min-width: 1221px) {
+      .audi-wheels .wheels-table {
+        padding: 100px 30px 130px 30px; } }
+    .audi-wheels .wheels-table p {
+      text-align: center;
+      padding: 0 0 30px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-table p {
+          padding: 0 100px 80px 100px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-table p {
+          padding: 0 100px 100px 100px; } }
+    .audi-wheels .wheels-table table {
+      width: 100%;
+      min-width: 550px;
+      font-weight: 700;
+      font-size: 13px;
+      border-spacing: 0;
+      border-collapse: collapse; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-table table {
+          min-width: 100%;
+          font-size: 16px;
+          border-right: 10px solid #efefef;
+          border-top: 10px solid #efefef; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-table table {
+          font-size: 21px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .wheels-table table {
+          font-size: 25px; } }
+    .audi-wheels .wheels-table td {
+      padding: 10px;
+      background: #1b4859;
+      color: #fff;
+      border-right: 5px solid #efefef;
+      border-top: 5px solid #efefef; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-table td {
+          border-right: 10px solid #efefef;
+          border-top: 10px solid #efefef; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-table td {
+          padding: 20px;
+          border-right: 15px solid #efefef;
+          border-top: 15px solid #efefef; } }
+      .audi-wheels .wheels-table td:last-child {
+        border-right: none; }
+    .audi-wheels .wheels-table th {
+      padding: 5px 10px;
+      background: #f4d501;
+      color: #0b3342;
+      text-align: left;
+      line-height: 1;
+      border-right: 5px solid #efefef; }
+      .audi-wheels .wheels-table th:last-child {
+        border-right: none; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-table th {
+          border-right: 10px solid #efefef; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-table th {
+          padding: 5px 20px;
+          border-right: 15px solid #efefef; } }
+    .audi-wheels .wheels-table .first-column {
+      width: 20%; }
+    .audi-wheels .wheels-table .second-column {
+      width: 60%; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-table .second-column {
+          width: 35%; } }
+    .audi-wheels .wheels-table .fourth-column, .audi-wheels .wheels-table .third-column {
+      width: 10%; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-table .fourth-column, .audi-wheels .wheels-table .third-column {
+          width: 25%; } }
+    .audi-wheels .wheels-table td.second-column, .audi-wheels .wheels-table td.third-column {
+      font-size: 13px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-table td.second-column, .audi-wheels .wheels-table td.third-column {
+          font-size: 14px; } }
+      @media (min-width: 1221px) {
+        .audi-wheels .wheels-table td.second-column, .audi-wheels .wheels-table td.third-column {
+          font-size: 16px; } }
+      @media (min-width: 1441px) {
+        .audi-wheels .wheels-table td.second-column, .audi-wheels .wheels-table td.third-column {
+          font-size: 19px; } }
+  .audi-wheels .table-wrap {
+    overflow: scroll; }
+    @media (min-width: 769px) {
+      .audi-wheels .table-wrap {
+        overflow: visible; } }
+  .audi-wheels .wheels-bottom {
+    padding: 80px 30px 50px;
+    background: url(../img/bottom-block-bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    text-align: center; }
+    @media (min-width: 769px) {
+      .audi-wheels .wheels-bottom {
+        padding: 150px 100px 70px; } }
+    @media (min-width: 1221px) {
+      .audi-wheels .wheels-bottom {
+        padding: 230px 100px 150px; } }
+    .audi-wheels .wheels-bottom p {
+      color: #fff;
+      margin-bottom: 30px; }
+      @media (min-width: 769px) {
+        .audi-wheels .wheels-bottom p {
+          margin-bottom: 50px; } }

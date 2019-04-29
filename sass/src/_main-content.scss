@@ -1,0 +1,767 @@
+
+/***************
+* audi-wheels *
+***************/
+// 1680px 1440px 1220px 768px 400px
+
+
+/*Global start*/
+.wheels-strong {
+	font-weight: $boldFont;
+}
+.wheels-block {
+	display: block;
+}
+.audi-wheels {
+	h3 {
+		font-size: 22px;
+		@media (min-width: 769px) {
+			font-size: 31px;
+		}
+		@media (min-width: 1221px) {
+			font-size: 35px;
+		}
+		@media (min-width: 1441px) {
+			font-size: 41px;
+		}
+	}
+	p {
+		font-size: 16px;
+		color: $midle-dark-blue;
+		@media (min-width: 769px) {
+			font-size: 18px;
+		}
+		@media (min-width: 1221px) {
+			font-size: 24px;
+		}
+		@media (min-width: 1441px) {
+			font-size: 29px;
+		}
+	}
+	a {
+		color: $yellow;
+		&:hover {
+			color: #faea6f;
+		}
+	}
+
+/*Global end*/
+
+
+/* Content start */
+
+/* hero start */
+	.wheels-hero {
+		position: relative;
+		background: $yellow;
+		padding: 60px 30px 0 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		margin-bottom: 75px;
+		@media (min-width: 769px) {
+			padding: 150px 30px 0 30px;
+		}
+		@media (min-width: 1221px) {
+			margin-bottom: 85px;
+			padding: 180px 30px 0 30px;
+		}
+		@media (min-width: 1441px) {
+			padding: 210px 30px 0 30px;
+			margin-bottom: 100px;
+		}
+		h1 {
+			font-size: 26px;
+			border-left: 20px solid $white;
+			padding-left: 20px;
+			line-height: 1.1;
+			z-index: 2;
+			@media (min-width: 769px) {
+				font-size: 51px;
+			}
+			@media (min-width: 1221px) {
+				border-left: 30px solid $white;
+				font-size: 58px;
+				padding-left: 30px;
+			}
+			@media (min-width: 1441px) {
+				font-size: 69px;
+			}
+		}
+		span {
+			display: block;
+			line-height: 1.3;
+			&:first-child {
+				margin-top: -5px;
+				@media (min-width: 1221px) {
+					margin-top: -13px;
+				}
+			}
+		}
+		
+		span:last-child {
+			margin-bottom: -5px;
+			@media (min-width: 1221px) {
+				margin-top: -13px;
+			}
+		}
+		.italic {
+			display: inline;
+		}
+		.dark-head {
+			color: $midle-dark-blue;
+			font-weight: $boldFont;
+		}
+		.light-head {
+			color: $white;
+			font-weight: $extraBoldFont;
+		}
+	}
+	.hero-auto {
+		z-index: 1;
+		margin: 70px auto 60px auto;
+		width: 100%;
+		max-width: 500px;
+		@media (min-width: 769px) {
+			margin: 20px 15% 100px 0;
+			width: 85%;
+			max-width: 85%;
+		}
+		@media (min-width: 1221px) {
+			max-width: 72%;
+			max-width: 72%;
+			margin-left: 28%;
+			margin-top: -210px;
+		}
+		@media (min-width: 1441px) {
+			max-width: 85%;
+			margin-left: 15%;
+			margin-bottom: 200px;
+			margin-top: -200px;
+		}
+	}
+	.hero-bg {
+		display: none;
+		@media (min-width: 769px) {
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: calc(100% + 85px);
+			object-fit: cover;
+			width: 25%;
+			display: inline-block;
+		}
+		@media (min-width: 1221px) {
+			height: calc(100% + 85px);
+			object-fit: none;
+			width: auto;
+		}
+		@media (min-width: 1441px) {
+			height: calc(100% + 100px);
+		}
+	}
+/* hero end */
+
+/* first section start */
+	.wheels-first {
+		padding: 0 30px 60px 30px;
+		@media (min-width: 769px) {
+			padding: 75px 60px 100px 60px;
+		}
+		.top {
+			display: flex;
+			align-items: flex-start;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-bottom: 40px;
+			@media (min-width: 769px) {
+				flex-wrap: nowrap;
+				justify-content: flex-start;
+			}
+		}
+		img {
+			width: 100%;
+			margin-left: 0;
+			z-index: 2;
+			max-width: 420px;
+			margin-top: 55px;
+			@media (min-width: 769px) {
+				margin-top: 0;
+				width: 60%;
+				margin-left: -10%;
+				max-width: 60%;
+			}
+		}
+		.head {
+			width: 100%;
+			max-width: 400px;
+			background: url(../img/head-background.jpg) repeat-y 0 0;
+			background-size: 150%;
+			text-align: center;
+			padding: 15px;
+			margin-left: 20px;
+			margin-top: 20px;
+			z-index: 0;
+			position: relative;
+			@media (min-width: 769px) {
+				width: 50%;
+				max-width: 50%;
+				padding: 15px 45px 15px 15px;
+				background-size: 100%;
+			}
+			@media (min-width: 1221px) {
+				margin-left: 40px;
+				margin-top: 40px;
+				padding: 30px 90px 30px 0;
+			}
+			&:before {
+				content: "";
+				width: 40px;
+				height: 40px;
+				background: $midle-dark-blue;
+				position: absolute;
+				top: -20px;
+				left: -20px;
+				@media (min-width: 1221px) {
+					width: 80px;
+					height: 80px;
+					top: -40px;
+					left: -40px;
+				}
+			}
+			p {
+				font-size: 28px;
+				color: $midle-dark-blue;
+				font-weight: $extraBoldFont;
+				@media (min-width: 1221px) {
+					font-size: 46px;
+				}
+				@media (min-width: 1441px) {
+					font-size: 55px;
+				}
+			}
+		}
+		h2 {
+			font-size: 26px;
+			color: $white;
+			line-height: 1;
+			font-weight: $boldFont;
+			@media (min-width: 769px) {
+				font-size: 41px;
+			}
+			@media (min-width: 1221px) {
+				font-size: 67px;
+			}
+			@media (min-width: 1441px) {
+				font-size: 79px;
+			}
+		}
+		p {
+			text-align: center;
+		}
+	}
+/* first section end */
+
+/* second section start */
+	.wheels-second {
+		background: url(../img/secrion-3-backdround.jpg) no-repeat 50% 50%;
+		background-size: cover;
+		padding: 50px 30px;
+		position: relative;
+		margin-bottom: 10px;
+		@media (min-width: 769px) {
+			padding: 93px 30px;
+			margin-bottom: 15px;
+		}
+		@media (min-width: 1221px) {
+			margin-bottom: 25px;
+		}
+		@media (min-width: 1441px) {
+			margin-bottom: 30px;
+		}
+		&:after {
+			content: "";
+			background: $yellow;
+			position: absolute;
+			bottom: -10px;
+			left: 50%;
+			width: 200px;
+			height: 20px;
+			margin-left: -100px;
+			@media (min-width: 769px) {
+				left: 30px;
+				bottom: -15px;
+				width: 300px;
+				height: 30px;
+				margin-left: 0;
+			}
+			@media (min-width: 1221px) {
+				height: 50px;
+				bottom: -25px;
+				width: 364px;
+			}
+			@media (min-width: 1441px) {
+				bottom: -30px;
+				height: 60px;
+				width: 430px;
+			}
+		}
+		.description {
+			width: 100%;
+			text-align: center;
+			@media (min-width: 1221px) {
+				width: 50%;
+				text-align: left;
+			}
+		}
+		p {
+			color: $white;
+		}
+		p:first-child {
+			padding-bottom: 30px;
+			@media (min-width: 769px) {
+				padding-bottom: 40px;
+			}
+		}
+	}
+/* second section end */
+
+/* title section start */
+	.wheels-title {
+		text-align: center;
+		padding: 60px 30px 80px 30px;
+		@media (min-width: 769px) {
+			padding: 100px 30px 130px 30px;
+		}
+		h3 {
+			margin-bottom: 80px;
+			position: relative;
+			@media (min-width: 769px) {
+				margin-bottom: 70px;
+			}
+			@media (min-width: 1221px) {
+				margin-bottom: 120px;
+			}
+			&:after {
+				content: "";
+				display: block;
+				position: absolute;
+				left: 50%;
+				margin-left: -75px;
+				width: 150px;
+				height: 10px;
+				bottom: -30px;
+				background: $yellow;
+				@media (min-width: 1221px) {
+					bottom: -60px;
+					width: 200px;
+					height: 20px;
+					margin-left: -100px;
+				}
+			}
+		}
+		
+		p {
+			padding: 0;
+			@media (min-width: 769px) {
+				padding: 0 70px;
+			}
+		}
+		&_gray {
+			background: $light-gray;
+		}
+		&_invert-padding {
+			padding-top: 50px;
+			padding-bottom: 30px;
+			@media (min-width: 769px) {
+				padding-top: 130px;
+				padding-bottom: 100px;
+			}
+		}
+	}
+/* title section end */
+
+/* tire section start */
+	.tire-section {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		@media (min-width: 769px) {
+			padding: 0 30px;
+		}
+		> div {
+			width: 100%;
+			@media (min-width: 769px) {
+				width: 50%;
+			}
+		}
+	}
+	.wheels-yellow {
+		background: none;
+		@media (min-width: 769px) {
+			background: linear-gradient(to right, $yellow 0%, $yellow 50%, $white 50%, $white 100%);
+		}
+		.tire-image-wrap {
+			background: radial-gradient(closest-side, #fbed7e, $yellow);
+			@media (min-width: 769px) {
+				padding: 25px 40px 25px 25px;
+			}
+			@media (min-width: 1221px) {
+				padding: 65px 100px 65px 65px;
+			}
+			@media (min-width: 1441px) {
+				padding: 80px 120px 80px 80px;
+			}
+		}
+		.tire-description {
+			padding-left: 30px;
+			padding-right: 30px;
+			@media (min-width: 769px) {
+				padding-right: 0;
+			}
+			&:before {
+				background: $yellow;
+			}
+		}
+	}
+	.wheels-blue {
+		background: none;
+		@media (min-width: 769px) {
+			background: linear-gradient(to left, $midle-dark-blue 0%, $midle-dark-blue 50%, $white 50%, $white 100%);
+		}
+		.tire-image-wrap {
+			background: radial-gradient(closest-side, #1d4a5a, $midle-dark-blue);
+			@media (min-width: 769px) {
+				order: 2;
+				padding: 25px 25px 25px 40px;
+			}
+			@media (min-width: 1221px) {
+				padding: 65px 65px 65px 100px;
+			}
+			@media (min-width: 1441px) {
+				padding: 80px 80px 80px 120px;
+			}
+		}
+		.tire-description {
+			padding-right: 30px;
+			padding-left: 30px;
+			@media (min-width: 769px) {
+				padding-left: 0;
+				padding-left: 30px;
+				order: 1;
+			}
+			&:before {
+				background: $light-dark-blue;
+			}
+		}
+		.tire-description-yellow:before {
+			background: $yellow !important;
+		}
+	}
+	.tire-image-wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 30px;
+		@media (min-width: 769px) {
+			align-items: flex-end;
+		}
+		img {
+			max-width: 250px;
+			@media (min-width: 769px) {
+				max-width: 100%;
+			}
+		}
+	}
+	.priece {
+		font-size: 14px;
+		color: $midle-dark-blue;
+		background: linear-gradient(to right, #cbcbcb, #cbcbcb 10%, $white 50%);
+		text-transform: capitalize;
+		line-height: 1;
+		padding: 5px 10px 5px 100px;
+		margin: 0 -145px -45px 0;
+		@media (min-width: 769px) {
+			margin: 0 -30px -55px 0;
+		}
+		@media (min-width: 993px) {
+			margin: 23px -20px -75px 0;
+			padding: 10px 20px 10px 100px;
+		}
+		@media (min-width: 1221px) {
+			margin: 40px -80px -100px 0;
+			padding: 10px 40px 10px 100px;
+			font-size: 16px;
+		}
+		@media (min-width: 1441px) {
+			font-size: 19px;
+		}
+		> span {
+			font-size: 18px;
+			@media (min-width: 1221px) {
+				font-size: 24px;	
+			}
+			@media (min-width: 1441px) {
+				font-size: 29px;	
+			}
+		}
+	}
+	section .tire-description:before {
+		content: "";
+		width: 180px;
+		height: 15px;
+		background: #000;
+		@media (min-width: 1441px) {
+			width: 211px;
+			height: 30px;
+		}
+		@media (min-width: 1441px) {
+			width: 250px;
+			height: 35px;
+		}
+	}
+	.tire-description {
+		display: flex;
+		flex-direction: column;
+		padding-top: 60px;
+		padding-bottom: 40px;
+		@media (min-width: 1441px) {
+			padding-top: 51px;
+			padding-bottom: 34px;
+		}
+		&_pad-t-0 {
+			@media (min-width: 769px) {
+				padding-top: 0;
+			}
+		}
+		h3 {
+			span {
+				font-size: 22px;
+				line-height: 1;
+				@media (min-width: 1221px) {
+					font-size: 31px;
+				}
+				@media (min-width: 1441px) {
+					font-size: 41px;
+				}
+			}
+		}
+		span {
+			font-size: 16px;
+			color: $midle-dark-blue;
+			@media (min-width: 769px) {
+				font-size: 21px;
+			}
+			@media (min-width: 1221px) {
+				font-size: 24px;
+			}
+			@media (min-width: 1441px) {
+				font-size: 29px;
+			}
+		}
+		p, h3, .parameters {
+			margin: 20px 0;
+		}
+	}
+/* tire section end */
+
+/* two column section start */
+	.wheels-two-column {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 30px 190px;
+		text-align: center;
+		@media (min-width: 769px) {
+			text-align: left;
+			padding: 0 30px 270px;
+		}
+		@media (min-width: 1221px) {
+			padding: 0 30px 350px;
+		}
+		p {
+			font-size: 16px;
+			@media (min-width: 769px) {
+				width: 50%;
+				font-size: 18px;
+			}
+			@media (min-width: 1221px) {
+				font-size: 24px;
+			}
+			@media (min-width: 1441px) {
+				font-size: 29px;
+			}
+		}
+		p:first-child {
+			padding-bottom: 30px;
+			@media (min-width: 769px) {
+				padding-right: 30px;
+				padding-bottom: 0;
+			}
+		}
+		p:last-child {
+			@media (min-width: 769px) {
+				padding-left: 30px;
+			}
+		}
+	}
+	.wheels-two-column_background {
+		background: url(../img/two-column-bg.png) no-repeat 50% 100%, $light-gray;
+		background-size: 100%;
+	}
+/* two column section end */
+
+/* table section start */
+
+	.prompt {
+		text-align: center;
+		padding:0 0 15px 0;
+		@media (min-width: 768px) {
+			display: none;
+		}
+		img {
+			max-width: 60px;
+		}
+	}
+
+	.wheels-table {
+		padding: 60px 15px;
+		@media (min-width: 769px) {
+			display: block;
+			padding: 80px 30px 100px 30px;
+		}
+		@media (min-width: 1221px) {
+			padding: 100px 30px 130px 30px;
+		}
+		p {
+			text-align: center;
+			padding: 0 0 30px;
+			@media (min-width: 769px) {
+				padding: 0 100px 80px 100px;
+			}
+			@media (min-width: 1221px) {
+				padding: 0 100px 100px 100px;
+			}
+		}
+		table {
+			width: 100%;
+			min-width: 550px;
+			font-weight: $boldFont;
+			font-size: 13px;
+			border-spacing: 0;
+			border-collapse: collapse;
+			@media (min-width: 769px) {
+				min-width: 100%;
+				font-size: 16px;
+				border-right: 10px solid $light-gray;
+				border-top: 10px solid $light-gray;
+			}
+			@media (min-width: 1221px) {
+				font-size: 21px;
+			}
+			@media (min-width: 1441px) {
+				font-size: 25px;
+			}
+		}
+		td {
+			padding: 10px;
+			background: $light-dark-blue;
+			color: $white;
+			border-right: 5px solid $light-gray;
+			border-top: 5px solid $light-gray;
+			@media (min-width: 769px) {
+				border-right: 10px solid $light-gray;
+				border-top: 10px solid $light-gray;
+			}
+			@media (min-width: 1221px) {
+				padding: 20px;
+				border-right: 15px solid $light-gray;
+				border-top: 15px solid $light-gray;
+			}
+			&:last-child {
+				border-right: none;
+			}
+		}
+		th {
+			padding: 5px 10px;
+			background: $yellow;
+			color: $midle-dark-blue;
+			text-align: left;
+			line-height: 1;
+			border-right: 5px solid $light-gray;
+			&:last-child {
+				border-right: none;
+			}
+			@media (min-width: 769px) {
+				border-right: 10px solid $light-gray;
+			}
+			@media (min-width: 1221px) {
+				padding: 5px 20px;
+				border-right: 15px solid $light-gray;
+			}
+		}
+		.first-column {
+			width: 20%;
+		}
+		.second-column {
+			width: 60%;
+			@media (min-width: 769px) {
+				width: 35%;
+			}
+		}
+		.fourth-column, .third-column {
+			width: 10%;
+			@media (min-width: 769px) {
+				width: 25%;
+			}
+		}
+		td.second-column, td.third-column {
+			font-size: 13px;
+			@media (min-width: 769px) {
+				font-size: 14px;
+			}
+			@media (min-width: 1221px) {
+				font-size: 16px;
+			}
+			@media (min-width: 1441px) {
+				font-size: 19px;
+			}
+		}
+	}
+	.table-wrap {
+		overflow: scroll;
+		@media (min-width: 769px) {
+			overflow: visible;
+		}
+	}
+/* table section end */
+	.wheels-bottom {
+		padding: 80px 30px 50px;
+		background: url(../img/bottom-block-bg.jpg) no-repeat 50% 50%;
+		background-size: cover;
+		text-align: center;
+		@media (min-width: 769px) {
+			padding: 150px 100px 70px;
+		}
+		@media (min-width: 1221px) {
+			padding: 230px 100px 150px;
+		}
+		p{
+			color: $white;
+			margin-bottom: 30px;
+			@media (min-width: 769px) {
+				margin-bottom: 50px;
+			}
+		}
+	}
+/* botiom section start */
+
+/* botiom section end */
+
+
+
+/*Content end*/
+
+}
+
